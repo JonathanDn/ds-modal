@@ -1,0 +1,34 @@
+.cd-modal-overlay {
+    position: fixed;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    opacity: 1;
+    .modal-background-click {
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+        .modal-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            position: relative;
+            top: 50vh;
+            left: 50vw;
+            height: var(--cd-modal-height);
+            width: var(--cd-modal-width);
+            margin-top: calc(var(--cd-modal-height) / -2);
+            margin-left: calc(var(--cd-modal-width) / -2);
+            box-sizing: border-box;
+            border-radius: 3px;
+            box-shadow: 0 20px 60px -2px rgba(27, 33, 58, 0.4);
+            padding: 0;
+        }
+    }
+}
