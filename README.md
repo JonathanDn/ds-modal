@@ -7,6 +7,8 @@ A design system Vue.js modal with built-in slot to bind a vue component inside
   <div>
       <cd-modal :config="editModalConfig"
                 @closeModal="toggleCloseModal">
+                
+           // Here you put all this components' template+data+props+methods used in this file(for example a some-form.vue compeonnt)
           <div class="title">Some Majestic Title!</div>
           <ds-input>...</ds-input>
           <ds-input>...</ds-input>
@@ -16,6 +18,8 @@ A design system Vue.js modal with built-in slot to bind a vue component inside
              <ds-btn>...</ds-btn>
              <ds-btn>...</ds-btn>
           </div>
+          
+          
       </cd-modal>
   </div>
 </template>
