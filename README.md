@@ -5,7 +5,7 @@ A design system Vue.js modal with built-in slot to bind a vue component inside
 ```
 <template>
   <div>
-      <cd-modal :config="editModalConfig"
+      <ds-modal :config="editModalConfig"
                 @closeModal="toggleCloseModal">
                 
            // Here you put all this components' template+data+props+methods used in this file(for example a some-form.vue compeonnt)
@@ -20,15 +20,15 @@ A design system Vue.js modal with built-in slot to bind a vue component inside
           </div>
           
           
-      </cd-modal>
+      </ds-modal>
   </div>
 </template>
 
 <script>
-    import cdModal from '../../../shared/components/cd-modal/cd-modal';
+    import dsModal from '../../../shared/components/ds-modal/ds-modal';
         export default {
             components: {
-                cdModal
+                dsModal
             },
             data() {
                 return {
