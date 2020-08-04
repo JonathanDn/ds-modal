@@ -1,5 +1,5 @@
 <template>
-    <div class="cd-modal-overlay"
+    <div class="ds-modal-overlay"
          :style="getComputedStyles">
        <div class="modal-background-click"
             @click="clickOutsideModal">
@@ -12,7 +12,7 @@
 
 <script>
     export default {
-        name: 'cdModal',
+        name: 'dsModal',
 		props: ['config'],
         components: {
         
@@ -26,8 +26,8 @@
 		computed: {
 			getComputedStyles() {
 				return [
-					{'--cd-modal-width': this.width + 'px'},
-					{'--cd-modal-height': this.height + 'px'},
+					{'--ds-modal-width': this.width + 'px'},
+					{'--ds-modal-height': this.height + 'px'},
 				];
 			},
 		},
@@ -70,5 +70,5 @@
 
 <style scoped
        lang="scss">
-    @import "./cd-modal";
+    @import "./ds-modal";
 </style>
