@@ -48,3 +48,7 @@ A design system Vue.js modal with built-in slot to bind a vue component inside
 
 <style scoped lang="scss">...</style>
 ```
+
+## Supported Properties
+- `width` type `number`
+- `height` type `number`
