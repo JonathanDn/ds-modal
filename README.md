@@ -46,9 +46,12 @@ A design system Vue.js modal with built-in slot to bind a vue component inside
         }
 </script>
 
-<style scoped lang="scss">...</style>
+<style lang="scss">...</style>
 ```
 
 ## Supported Properties
 - `width` type `number`
 - `height` type `number`
+
+### Notes
+* The modal component does not have a `scoped` style attribute in prupose, to support custimzing the styling of passed template into the modal slot.
