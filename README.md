@@ -1,5 +1,5 @@
 # ds-modal
-A design system Vue.js modal with built-in slot to bind a vue component inside
+A design system Vue.js modal with built-in slot to bind a vue component inside.
 
 # Usage Example
 ```
@@ -54,4 +54,4 @@ A design system Vue.js modal with built-in slot to bind a vue component inside
 - `height` type `number`
 
 ### Notes
-* The modal component does not have a `scoped` style attribute in prupose, to support custimzing the styling of passed template into the modal slot.
+* The modal component does not have a `scoped` style attribute on prupose, to support custimzing the styling of passed template into the modal slot.
