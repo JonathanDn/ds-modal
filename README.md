@@ -55,3 +55,6 @@ A design system Vue.js modal with built-in slot to bind a vue component inside.
 
 ### Notes
 * The modal component does not have a `scoped` style attribute on prupose, to support custimzing the styling of passed template into the modal slot.
+
+---
+👨‍💻 Follow me on [Twitter](https://twitter.com/jodoron).
