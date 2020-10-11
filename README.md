@@ -58,3 +58,8 @@ A design system Vue.js modal with built-in slot to bind a vue component inside.
 
 ---
 👨‍💻 Follow me on [Twitter](https://twitter.com/jodoron).
+
+### Donation
+If this project helped you reduce development time, you can buy me a cup of coffee :)
+
+* Paypal - yonidn7@gmail.com
